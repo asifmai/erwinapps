@@ -1,0 +1,246 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Lato';
+    color: #444444;
+}
+
+.app {
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+}
+
+.app-card {
+    border-bottom: 10px solid #F2F2F2;
+    padding: 2em 0;
+}
+
+.app-card.hero {
+    text-align: center;
+}
+
+.profile-image {
+    position: relative;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.profile-image .badge {
+    position: absolute;
+    background: #EA4B89;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.profile-title {
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+.profile-location {
+    color: #999999;
+    font-size: 1.5em;
+}
+
+.profile-details {
+    font-size: 1.5em;
+}
+
+.action-buttons {
+    margin-top: 1.5em;
+}
+
+.btn-app {
+    font-weight: 900;
+    border: none;
+    outline: none;
+    color: #999999;
+    background: #F2F2F2;
+    border-radius: 10px;
+    padding: 1.2em 2.5em;
+    cursor: pointer;
+}
+
+.btn-follow {
+    margin-right: 1.5em;
+}
+
+.profile-follows {
+    margin-top: 1.5em;
+}
+
+.follow-item {
+    display: inline-block;
+}
+
+.follow-number {
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+.follow-text {
+    color: #C3C3C3;
+    font-size: 1.5em;
+}
+
+.point {
+    background: #999999;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    margin: 0 1.5em;
+}
+
+.social-icons {
+    margin-top: 1.5em;
+}
+
+.social-link {
+    font-size: 3em;
+    color: #999999;
+    text-decoration: none;
+}
+
+.instagram-link {
+    margin-right: 0.5em;
+}
+
+.app-card.post {
+    padding: 1em 0;
+}
+
+.post-header {
+    display: flex;
+    padding: 0 1em 1em 1em; 
+}
+
+.profile-image-small {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.post-info {
+    margin-left: 1em;
+    align-self: center;
+}
+
+.post-info .post-title {
+    font-weight: 900;
+    margin-bottom: 0.4em;
+}
+
+.post-info .post-name {
+    color: #999999;
+    font-weight: bold;
+}
+
+.post-time {
+    align-self: flex-end;
+    margin-left: auto;
+    color: #999999;
+    font-size: 0.8em;
+}
+
+.post-body {
+    height: 350px;
+    background: #747474;
+}
+
+.post-footer {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-link {
+    display: inline-block;
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: #444444;
+}
+
+.footer-link i {
+    color: #BBBBBB;
+    margin-right: 10px;
+}
+
+.footer-link span {
+    font-weight: bold;
+}
+
+.footer-link.upload {
+    margin: 0;
+}
+
+.footer-link.upload i {
+    margin: 0;
+}
+
+.comment-box {
+    display: flex;
+    align-items: center;
+}
+
+.comment-box i {
+    font-size: 1.5em;
+    color: #A1A1A1;
+    margin-right: 0.5em;
+}
+
+.comment-box input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 0.9em;
+    }
+
+    .profile-image img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .btn-follow {
+        margin-right: 1em;
+    }
+
+    .point {
+        margin: 0 0.5em;
+    }
+
+    .follow-number {
+        margin-right: 0.2em;
+        font-size: 1.3em;
+    }
+
+    .follow-text {
+        font-size: 1.3em;
+    }
+
+    .footer-link {
+        margin-right: 0.5em;
+    }
+
+    .footer-link i {
+        margin-right: 5px;
+    }
+  }

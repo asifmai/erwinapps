@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 1em;
+  color: #3E4C5A;
+  font-weight: 500;
+}
+
+.wallet-wrapper {
+  max-width: 500px;
+  margin: auto;
+  background: #ED6945;
+}
+
+.header {
+  padding: 1em;
+}
+
+.menu {
+  display: flex;
+}
+
+.burger-icon {
+  color: #FDB9A7;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.app-title {
+  color: #FFF4E2;
+  margin: auto;
+  font-size: 1.5em;
+}
+
+.header-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5em;
+  margin-top: 1.5em;
+  position: relative;
+  box-shadow: 0 5px 10px -6px black;
+}
+
+.header-card .points {
+  display: flex;
+    align-items: center;
+}
+
+.header-card .points i {
+  color: white;
+    background: #3E4C5A;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.header-card .points span {
+    margin-left: 0.5em;
+    font-size: 1.4em;
+}
+
+.header-card .amount-value {
+  text-align: right;
+}
+
+.header-card .amount-value i {
+  font-size: 1.8em;
+}
+
+.header-card .amount-value span {
+  font-size: 4em;
+  margin-left: 0.1em;
+}
+
+.header-card .invite {
+  text-align: right;
+  padding-bottom: 2.5em;
+  border-bottom: 1px dotted #73797B;
+  color: #6F7376;
+}
+
+.header-card .actions {
+  display: flex;
+    justify-content: space-around;
+    margin-top: 2.5em;
+}
+
+.header-card .actions .action-button {
+  color: #6F7376;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header-card .actions .action-button i {
+  font-size: 1.5em;
+}
+
+.header-card .actions .action-button div {
+  font-size: 1.1em;
+    margin-top: 0.2em;
+}
+
+.header-card .fa-angle-double-down {
+  position: absolute;
+}
+
+.header-card .actions .line {
+  width: 1px;
+  background: gainsboro;
+  height: 49px;
+}
+
+.history .history-title {
+  color: #FDB9A7;
+    background: #D25C3D;
+    padding: 0.5em 2em;
+}
+
+.history .history-details {
+  background: white;
+  padding: 2em;
+}
+
+.history-card {
+  border-bottom: 1px solid gainsboro;
+    padding-bottom: 2em;
+}
+
+.history-card:not(:first-of-type) {
+  padding-top: 2em;
+}
+
+.history-card .transaction-title {
+  font-size: 1.5em;
+  margin-bottom: 0.7em;
+}
+
+.history-card > .details {
+  display: flex;
+  justify-content: space-between;
+  color: #B1B1B1;
+  align-items: center;
+}
+
+.history-card > .details > .amount-time > .amount {
+  text-align: right;
+  color: #11A275;
+  font-size: 1.5em;
+}
+
+.fa-angle-double-down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px;
+  color: #bbbec1;
+  cursor: pointer;
+}
+
+.top-edge {
+  position: absolute;
+    width: 120px;
+    height: 6px;
+    background: #ED6945;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.top-edge:before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #ED6945;
+  position: absolute;
+  top: -14px;
+  left: -10px;
+}
+
+.top-edge:after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #ED6945;
+  position: absolute;
+  top: -15px;
+  right: -8px;
+  transform: rotate(45deg);
+}

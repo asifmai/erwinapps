@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-family: Roboto;
+}
+
+.app-wrapper {
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  color: white;
+}
+
+.app-header {
+  background: #457599;
+  padding: 2em;
+  position: relative;
+  height: 250px;
+}
+
+.header-image-container {
+  background: url(hero-img.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 2em;
+  height: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  right: 2em;
+  left: 2em;
+  top: 30%;
+  box-shadow: 5px 5px 17px -11px black;
+}
+
+.heading1 {
+  margin: 0;
+}
+
+.app-body {
+  margin-top: 14em;
+  padding: 0 2em 2em 2em;
+}
+
+.popular-heading {
+  color: black;
+  margin: 0;
+}
+
+.header-image-container i {
+  color: black;
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+.hero-heading {
+  margin: 0;
+  font-size: 1.7em;
+}
+
+.app-body .images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* padding: 2em 0; */
+}
+
+.app-body .images .small-image {
+  width: 47%;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  border-radius: 10px;
+}
